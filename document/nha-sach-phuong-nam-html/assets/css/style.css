@@ -1,0 +1,130 @@
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+.top-header{
+    padding: 1rem auto;
+    border-bottom: 3px solid #FCB040;
+}
+.top-header .contact{
+    text-align: end;
+}
+.form-search{
+    /* background-color: rosybrown; */
+    text-align: end;
+}
+.form-search input{
+    height: 43px;
+    width: 530px;
+    border: 1px solid #ccc;
+}
+.form-search button{
+    padding: 10px 14px;
+    background-color: #F15A29;
+    margin-left: -3px;
+    border: none;
+    color: #fff;
+}
+.cart-account{
+    display: inline-block;
+    /* background-color: silver; */
+    padding-top: 2rem;
+}
+.cart-account .span{
+    float: left;
+    min-height: 1px;
+    margin: 0 10px;
+}
+.cart-account .span .icon{
+    padding: 0.5rem;
+}
+.main-nav{
+  background-color: #fcb040;
+}
+.main-nav li{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: -5px;
+}
+.main-nav li:first-child{
+    margin-left: 0;
+}
+.main-nav a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    font-size: large;
+}
+.has-submenu{
+    position: relative;
+}
+.level1{
+    background-color: #f5bd69;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+}
+.main-nav li:hover{
+    background-color: #6fa8dc;
+}
+.has-submenu:hover .level1{
+    display: block;
+}
+.level1 li{
+    border-bottom: 1px solid rgb(194, 189, 189);
+    text-align: left;
+    width: 200px;
+    margin-left: 0!important;
+    padding-left: 0.5rem;
+}
+.cart .dropdown-menu{
+    width: 360px;
+    overflow: hidden;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+.action-btn .btn:hover{
+    background-color: #fcb040!important;
+    color: #fff;
+    border: none!important;
+}
+.menu-product ul{
+    list-style: none;
+}
+.form-group{
+    padding: 0.5rem 4rem;
+}
+.form-group input[type="text"], input[type="password"]{
+    width: 100%;
+    margin: auto;
+}
+.aside-category h5{
+    padding: 1rem 0;
+}
+.aside-category ul{
+    background: #fcb040;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+}
+.aside-category ul li{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #fff;
+}
+.aside-category ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 16px;
+    display: block;
+}
+.aside-category li:hover{
+    background-color: #e29f3a;
+}
